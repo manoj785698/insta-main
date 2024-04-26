@@ -26,7 +26,7 @@ function App() {
             localStorage.removeItem("loggedinTime");
             localStorage.removeItem("store");
             localStorage.removeItem("profile")
-            window.location.replace("http://localhost:3000/auth");
+            window.location.replace("https://insta-main-k6ge.onrender.com/auth");
         }
       },60000)
     }

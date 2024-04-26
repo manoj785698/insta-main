@@ -31,7 +31,7 @@ const Auth = () => {
   const handleCode = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:5000/getcode`, {
+      const response = await fetch(`https://insta-main-k6ge.onrender.com/getcode`, {
         method: "POST",
         crossDomain: true,
         headers: {
