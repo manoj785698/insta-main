@@ -26,7 +26,7 @@ function App() {
             localStorage.removeItem("loggedinTime");
             localStorage.removeItem("store");
             localStorage.removeItem("profile")
-            window.location.replace("https://insta-main-k6ge.onrender.com/auth");
+            window.location.replace("https://magnificent-bublanina-b722c8.netlify.app/auth");
         }
       },60000)
     }
